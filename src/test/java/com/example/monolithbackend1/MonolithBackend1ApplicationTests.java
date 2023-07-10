@@ -39,7 +39,7 @@ class MonolithBackend1ApplicationTests {
 
 	@Test
 	void getAllProducts() {
-		//abc
+		//bca
 		List<Product> productList = new ArrayList<>();
 		Product product1 = new Product();
 		product1.setProductId(1);
