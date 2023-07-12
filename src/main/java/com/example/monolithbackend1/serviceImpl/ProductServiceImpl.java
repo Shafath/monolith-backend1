@@ -4,11 +4,9 @@ import com.example.monolithbackend1.exception.ResourceNotFoundException;
 import com.example.monolithbackend1.model.Product;
 import com.example.monolithbackend1.repository.ProductRepository;
 import com.example.monolithbackend1.service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ProductServiceImpl implements ProductService {

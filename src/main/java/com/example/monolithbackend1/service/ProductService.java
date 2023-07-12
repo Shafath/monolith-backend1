@@ -1,7 +1,6 @@
 package com.example.monolithbackend1.service;
 
 import com.example.monolithbackend1.model.Product;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 

@@ -2,9 +2,7 @@ package com.example.monolithbackend1;
 
 import com.example.monolithbackend1.model.Product;
 import com.example.monolithbackend1.repository.ProductRepository;
-import com.example.monolithbackend1.service.ProductService;
 import com.example.monolithbackend1.serviceImpl.ProductServiceImpl;
-import org.aspectj.lang.annotation.Before;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
