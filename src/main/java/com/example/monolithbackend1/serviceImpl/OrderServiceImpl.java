@@ -34,6 +34,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public Order getOrderById(Long orderId) {
+        // this is a dummy comment
         return this.orderRepository.findById(orderId).orElseThrow(() ->
             new ResourceNotFoundException("Order", "Id", orderId)
         );
